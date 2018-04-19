@@ -8,7 +8,15 @@ body {
 }
 
 p {
-  text-align: justify;
+  white-space: nowrap;
+  height: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p.expandido {
+  white-space: normal;
+  height: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
